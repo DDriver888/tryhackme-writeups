@@ -13,6 +13,17 @@
 * Escalate privileges to root
 * Capture both user and root flags
 
+## Sources
+
+* REVERSE SHELL:
+https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+
+* PHP UPLOAD:
+https://www.vaadata.com/blog/file-upload-vulnerabilities-and-security-best-practices/
+
+* PERMISSIONS:
+https://docs.oracle.com/cd/E19683-01/816-4883/6mb2joatb/index.html
+
 ---
 
 ## Reconnaissance
@@ -37,10 +48,11 @@ sudo nmap -sC -sV -p 80 $target
 
 ## Output
 
-PORT   STATE SERVICE VERSION
-80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
-|_http-server-header: Apache/2.4.41 (Ubuntu)
-|_http-title: HackIT - Home
+| Port                    | Service |  Version                        |
+| ----                    | ------- |  -------                        |
+| 80/tcp                  | http    |  Apache httpd 2.4.41 ((Ubuntu)) |
+| http-server-header:     | http    |  Apache/2.4.41 (Ubuntu)         |
+| http-title: HackIT-Home | http    |
 ---
 
 ## Enumeration
@@ -48,7 +60,7 @@ PORT   STATE SERVICE VERSION
 ### Directory Brute Force
 
 ```zsh
-gobuster dir -u http://10.129.158.163> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+gobuster dir -u http://10.129.158.163 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 ```
 
 ### Discovered Endpoints
