@@ -48,10 +48,11 @@ sudo nmap -sC -sV -p 80 $target
 
 ## Output
 
-PORT   STATE SERVICE VERSION
-80/tcp open  http    Apache httpd 2.4.41 ((Ubuntu))
-|_http-server-header: Apache/2.4.41 (Ubuntu)
-|_http-title: HackIT - Home
+| Port                    | Service |  Version                        |
+| ----                    | ------- |  -------                        |
+| 80/tcp                  | http    |  Apache httpd 2.4.41 ((Ubuntu)) |
+| http-server-header:     | http    |  Apache/2.4.41 (Ubuntu)         |
+| http-title: HackIT-Home | http    |
 ---
 
 ## Enumeration
