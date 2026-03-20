@@ -60,7 +60,7 @@ sudo nmap -sC -sV -p 80 $target
 ### Directory Brute Force
 
 ```zsh
-gobuster dir -u http://10.129.158.163> -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+gobuster dir -u http://10.129.158.163 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
 ```
 
 ### Discovered Endpoints
