@@ -57,7 +57,6 @@ $ sudo nmap -sC -sV $target
 
 ```zsh
 $ gobuster dir -u http://10.114.135.252 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -x php,jv,py,txt,html
-```
 
 [+] Url:                     http://10.114.135.252
 [+] Method:                  GET
@@ -67,17 +66,13 @@ $ gobuster dir -u http://10.114.135.252 -w /usr/share/wordlists/dirbuster/direct
 [+] User Agent:              gobuster/3.8.2
 [+] Extensions:              py,txt,html,php,jv
 [+] Timeout:                 10s
-
+```
 * Starting gobuster in directory enumeration mode
 
 /index.html     (Status: 200) [Size: 1062]
-
 /login.php      (Status: 200) [Size: 882]
-
 /assets         (Status: 301) [Size: 317] [--> http://10.114.135.252/assets/]
-
 /portal.php     (Status: 302) [Size: 0]   [--> /login.php]
-
 /robots.txt     (Status: 200) [Size: 17]
 
 
