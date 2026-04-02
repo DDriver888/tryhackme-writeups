@@ -66,15 +66,15 @@ $ gobuster dir -u http://10.114.135.252 -w /usr/share/wordlists/dirbuster/direct
 [+] User Agent:              gobuster/3.8.2
 [+] Extensions:              py,txt,html,php,jv
 [+] Timeout:                 10s
-```
-* Starting gobuster in directory enumeration mode
+
+Starting gobuster in directory enumeration mode
 
 /index.html     (Status: 200) [Size: 1062]
 /login.php      (Status: 200) [Size: 882]
 /assets         (Status: 301) [Size: 317] [--> http://10.114.135.252/assets/]
 /portal.php     (Status: 302) [Size: 0]   [--> /login.php]
 /robots.txt     (Status: 200) [Size: 17]
-
+```
 
 * Some interesting stuff here. First of all I browsed `/robots.txt` and there is a strange word.. Maybe our password?
 
