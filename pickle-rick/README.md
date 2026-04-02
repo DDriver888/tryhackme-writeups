@@ -71,9 +71,13 @@ $ gobuster dir -u http://10.114.135.252 -w /usr/share/wordlists/dirbuster/direct
 * Starting gobuster in directory enumeration mode
 
 /index.html     (Status: 200) [Size: 1062]
+
 /login.php      (Status: 200) [Size: 882]
+
 /assets         (Status: 301) [Size: 317] [--> http://10.114.135.252/assets/]
+
 /portal.php     (Status: 302) [Size: 0]   [--> /login.php]
+
 /robots.txt     (Status: 200) [Size: 17]
 
 
@@ -105,7 +109,7 @@ Password: Wubbalubbadubdub
 ```bash
 less Sup3rS3cretPickl3Ingred.txt
 ```
-![First Ingredient](screenshots/first-ingredient.png)
+![First Ingredient](screenshots/first-ingredient.PNG)
 
  * Then, still using the `less` command we see the `clue.txt` that tells us to browse the file system to find the other ingredients. We see that we have to browse with just a command, we can't go to other directories with `cd`. So let's move around.
 
@@ -120,7 +124,7 @@ Nice! a file called 'second ingredients'. We're going to discover our second fla
  ```bash
 less /home/rick/"second ingredients"
  ```
-![Second Ingredient](screenshots/second-ingredient.png)
+![Second Ingredient](screenshots/second-ingredient.PNG)
 
 * For our third flag we try the `root` directory after several attempts to the other directories in `/`. But it returns no output, suggesting insufficient permissions. After checking our permissions with `sudo -l` we discover that the user can run commands as root.
 
@@ -128,7 +132,7 @@ less /home/rick/"second ingredients"
 sudo -l
 ```
 
-![Privileges](screenshots/permissions.png)
+![Privileges](screenshots/permissions.PNG)
 
 Checking sudo privileges:
 
@@ -136,14 +140,14 @@ Checking sudo privileges:
 sudo ls /root
 ```
 
-![Root Directory](screenshots/ls-root.png)
+![Root Directory](screenshots/ls-root.PNG)
 
 * And there is a '3rd.txt'! Almost there to get our last ingredient:
 
 ```bash
 sudo less /root/3rd.txt
 ```
-![Third Ingredient](screenshots/third-ingredient.png)
+![Third Ingredient](screenshots/third-ingredient.PNG)
 
 ---
 
