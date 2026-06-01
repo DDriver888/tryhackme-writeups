@@ -201,7 +201,7 @@ Possible Hashs:
 
 * So, we're going to paste this encoded string on Cyberchef with "From" the various Base solutions we have. It turns out it's Base52 for "/n0th1ng3ls3m4tt3r"
 
-![Hidden Directory](/screenshots/hidden-directory.png)
+![Hidden Directory](screenshots/hidden-directory.png)
 
 * Going into that directory we find another hash: 940d71e8655ac41efb5f8ab850668505b86dd64186a66e57d1483e7f5fe6fd81
 
