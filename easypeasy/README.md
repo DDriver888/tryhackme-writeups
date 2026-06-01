@@ -263,7 +263,7 @@ Session completed.
 
 * When we were in the `/n0th1ng3ls3m4tt3r` directory we noticed that we could highlight also an image. So, inspecting the source code we see the image uploaded and a binary. We're going to download it in our machine to see further binary information.
 
-![Matrix Image](easypeasy/binarycodepixabay.png)
+![Matrix Image](screenshots/binarycodepixabay.png)
 
 ```zsh
 
