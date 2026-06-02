@@ -77,8 +77,6 @@ Starting gobuster in directory enumeration mode
 ===============================================================
 hidden               (Status: 301) [Size: 169] [--> http://10.112.160.8/hidden/]
 ```
-* We inspected in the page source and we found nothing interesting inside this directory, so we try the hidden directory with gobuster.
-
 ![Welcome to CTF](screenshots/hidden.png)
 
 * Nothing interesting here, but let's go further enumerate:
