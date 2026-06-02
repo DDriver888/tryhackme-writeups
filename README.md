@@ -41,7 +41,6 @@ I will continue updating this repository as I complete more rooms and improve my
 ├── easypeasy/
 ├── README.md
 │   └── screenshots/
-├── secrettext.txt
 │ 
 ```
 
