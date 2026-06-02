@@ -37,6 +37,12 @@ I will continue updating this repository as I complete more rooms and improve my
 ├── pickle-rick/
 │   ├── README.md
 │   └── screenshots/
+|
+├── easypeasy/
+├── README.md
+│   └── screenshots/
+├── secrettext.txt
+│ 
 ```
 
 Each folder contains:
