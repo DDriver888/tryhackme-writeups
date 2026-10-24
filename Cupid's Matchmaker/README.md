@@ -268,11 +268,4 @@ The key security takeaway is that applications must treat user-submitted content
 Additional protections such as HttpOnly cookies and a properly configured Content Security Policy (CSP) can help reduce the impact of XSS attacks.
 
 ---
-
-## 5. Flag
-
-```text
-THM{XSS_CuP1d_Str1k3s_Ag41n}
-```
-
 **Room completed!**
